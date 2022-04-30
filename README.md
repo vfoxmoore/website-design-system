@@ -18,6 +18,19 @@ Or
 
 2. Grab the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for vscode to allow you to edit code and see the changes within a second or two.
 
+## Pull Requests
+
+The idea is to create a repo with an empty main branch. 
+Then add all your code on a new branch. Then create a pull request
+so that your entire project is part of the pull request.
+
+1. code up your project as usual
+2. create git repo and publish on github without any content added
+3. create a new branch
+4. add all project files to a commit on the new branch
+5. publish the new branch on github
+6. initiate pull request on github
+
 ## Misc
 
 Reference for [markdown](https://commonmark.org/help/)
