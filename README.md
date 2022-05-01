@@ -24,12 +24,14 @@ The idea is to create a repo with an empty main branch.
 Then add all your code on a new branch. Then create a pull request
 so that your entire project is part of the pull request.
 
-1. code up your project as usual
-2. create git repo and publish on github without any content added
-3. create a new branch
-4. add all project files to a commit on the new branch
-5. publish the new branch on github
-6. initiate pull request on github
+1. make a new folder for the project (windows explorer)
+2. open it in vscode
+3. initialize a git repo (source control tab or use the command line: ```git init```)
+4. make a readme and add it to an initial commit, and publish branch
+5. create a new branch to work from (```git checkout -b branch-name```)
+6. code up your project, commit as you go
+7. publish new branch
+8. make a pull request
 
 ## Misc
 
