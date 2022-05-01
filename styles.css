@@ -18,34 +18,16 @@ h1 {
     padding-bottom: 0px;
 }
 
-.color, .font, .text {
+.section {
     display: block;
     width: auto;
-    border:2px solid rgb(128, 128, 128);
+    border: 2px solid rgb(128, 128, 128);
     margin: 10px auto 10px auto;
+    padding: 16px;
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.color {
-    height: 370px;
-    margin-top: 0;
-}
-
-.font {
-    height: 450px;
-}
-
-.text {
-    height: 480px;
-
-}
-
-.content {
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .title {
@@ -56,16 +38,16 @@ h1 {
 
 .container {
     display: flex;
-    margin: 0 10px 0 10px;
+    gap: 16px;
+    margin: 0 20px 0 20px;
 }
 
 .column {
     flex: 25%;
-    height: 200px;
+    height: 100px;
     padding: 10px;
-    margin: 5px;
     text-align: center;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 1em;
 }
 
@@ -109,11 +91,18 @@ h1 {
     text-decoration: underline;
     font-weight: bold;
 }
+h2 {
+    margin-bottom: 0px;
+}
+
+h4 {
+    margin-top: 8px;
+}
 
 .h1 {
     font-family: SansSemiBold;
     font-size: 46px;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 5px;
 }
 
